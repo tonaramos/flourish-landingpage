@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="48px" viewBox="0 0 180 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect x="17" y="9" width="26" height="26" id="rect-1"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flourish" transform="translate(-729.000000, -350.000000)">
+            <g id="Group-23">
+                <g id="Group-12" transform="translate(533.000000, 351.000000)">
+                    <g id="Group-10" transform="translate(197.000000, 0.000000)">
+                        <g id="bg-button-copy-2">
+                            <path d="M154.812286,46.4285833 L22.0210468,46.4285833 C9.85890651,46.4285833 0,36.0351667 0,23.21425 C0,10.3934167 9.85890651,0 22.0210468,0 L154.812286,0 C166.973856,0 176.833333,10.3934167 176.833333,23.21425 C176.833333,36.0351667 166.973856,46.4285833 154.812286,46.4285833 Z" id="Path" fill="#F8D331"></path>
+                            <g id="Group-7" transform="translate(1.000000, 1.000000)" stroke="#4F7B38" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                                <path d="M-1.69197989e-13,21.5894474 L-1.69197989e-13,21.5894474 C-1.69197989e-13,17.6700007 1.03959778,13.9915763 2.85966593,10.8118158" id="Path"></path>
+                                <path d="M171.828222,34.1281953 C167.852741,39.764177 161.265778,43.449139 153.811852,43.449139 L22.1491926,43.449139 C11.5480444,43.449139 2.69962,35.9950148 0.625728889,26.0756901" id="Path"></path>
+                                <path d="M7.5086,5.31385474 C11.3623481,2.00276077 16.3869037,4.4408921e-14 21.8820963,4.4408921e-14 L153.544593,4.4408921e-14 C165.685333,4.4408921e-14 175.527481,10.4372421 175.527481,21.8364558 C175.527481,23.2336758 175.395481,24.6008862 175.142889,25.9250119" id="Path"></path>
+                            </g>
+                        </g>
+                        <text id="Play-store" font-family="FredokaOne-Regular, Fredoka One" font-size="20" font-weight="normal" line-spacing="24" letter-spacing="-0.06" fill="#4F7B38">
+                            <tspan x="54.16" y="29">Play store</tspan>
+                        </text>
+                        <g id="ic_android_48px@2x">
+                            <image x="17" y="9" width="26" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGOfPtRkwAABVVJREFUeAHtXUlW20AQjW02WYXssuIJLhDnBBHDPs4JMCfAR0hOEOcEeJkdZM0Qs8sO5wLYnCBmD5hfPMnIsqVuWV1dll/pPaOhq2v4X1WSWgO1N56nvb29dq1W+xGZPbq8vDzz7MKMuYQ/43q9/vX8/HwwI8C8UmfWP6eewMdvM/qdEgBzQp42kG2AfhL5EkwmkxNPpqdmJAioTa1jgQCQICEGP+kLCJjxLdnGteydAATZTgfjm4RF4JNPyIRO2jfude+MU0BZADw9PR1dXV310kGHYbjZaDS+AKAAbSF+NIUvf1//9KNFmg8eHh6u+/3+ONo2nRW1Pe3ItCBCAMViAiIBehviIX7LTH1kXO/x8fE3kWGyuYyBsn3ECCDHswAh0NDcooMjyZWdoI8y4Qz62mldWVmXluNaFyWAgsoigSvgpF5p8MmXRtIhieXhcDjY2dmhHSH0bP87rkG6nm3OmRPPgP39/Ra8ejkXn/OOcQOVJZx97fq+8EqHVE9v8LlO5Qd1+dRVrS/iO9kECTfkQ5F+rmXFSpBk7U+CCCJaQRDcUSlMbve1LFKCqOzQnu8rSEs7uxcXF31LWWdi3gnA+X2Ai6obibKThxodE3C98AnXC6M8Oddt3o8BGxsbIjXfBBztEOSbSc51u9djwMHBQQcBtF0H4VDfB5wS39/e3v51qDNXlbcSFA0tDE2lB3V4xieQNsmNwNBYVF9UirYXjSMZTC3V7K0Eoe5/M4G/VASOO0WliDLVy+SFANr7Ec2hl4gcGEEWHEc+O9CWr8ILATi40QUXkVCJKcqCtg9nZ+otl0HU8RvobnLpZ9J7jeNHyKR7qpadAEplZMD/qcUKLeCmznvugzF7CcKAV6tCmM+4ihOHcGYDw4oPAgIGv72oxLGAvWyyEwCkQi9o8Rhh990HATzQrIlWHwR8rjBW7L77IKDC+KvrioAioAgoAooAHwKFhiJwL/cYFydtuBNfoAwwctjD8zU/s1wsO56fpdfX9vT9hKTdZfBI9qdlKwKi8Zw/kI+BT+uhh2F3F42brCMBZfBIA2d1GorBtDzwSWczkknrX8t1l3gYCcAe3CGALZBsSj/kZOFjaRHXeBgJgMeHtl5j5PPYVrbCck7xsCHAZu+P8SwiG/ep2rxIjEZZGwKqBlCl/FUChOlSApQAYQSEzWsGKAHCCAib1wxQAoQREDavGaAECCMgbF4zQAkQRkDYvGaAEiCMgLB5zQAlQBgBYfOaAUqAMALC5jUDlABhBITNawYoAcIICJvXDFAChBEQNq8ZoAQIIyBsXjNACRBGQNi8ZsCqE4BXkP7Z+lhE1lbnqskVidFG1pgBeCesZwsCDHZtZasq5xoPIwF4Sa1rwyTJLPrnC1UFOstv13gYCSBH8EHTMI8EaiOZLKfXbbtLPKzekowBjD623UEafqRtBDx+3bw9fx3fkiyDR9w3nhciIO5UZA4CxpB/V6TPqshi57rDO9ABpz9WJaikA/2S/cW6I9MH3MbZCcAL3B0Ecc8dCIP++8h3BtWvKtm/HT0ajcZbW1u/8ArrNlL6LfaqzVfzq7dEZQc+XgP8lo8vqbMfA0wQFz1I5327gWy51mfyv2w7ewkq6+C691cChBlWApQAYQSEzWsGKAHCCAib1wxQAoQREDavGaAECCMgbF4zQAkQRkDYvGaAEiCMgLB58QzA+LvT545c6+PmR5wA3Pzo2QYJcLsmWdf6TPbKtovfkKEA8BHsAYB7edIiKyDas3GDvJnVntzuWl9St+tl8QyggFw+Z8OhzzXoSX0rkQGxQ8s8dxT3XTR3rW+RjbLbngEoG/9Jm184rgAAAABJRU5ErkJggg=="></image>
+                            <use fill="#4F7B38" fill-rule="evenodd" xlink:href="#rect-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

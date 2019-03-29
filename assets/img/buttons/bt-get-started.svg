@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="270px" height="61px" viewBox="0 0 270 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>bg-button copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flourish" transform="translate(-585.000000, -1385.000000)">
+            <g id="bg-button-copy" transform="translate(588.000000, 1388.000000)">
+                <path d="M237.977,55.7143 L27.023,55.7143 C12.0983,55.7143 0,43.2422 0,27.8571 C0,12.4721 12.0983,0 27.023,0 L237.977,0 C252.901,0 265,12.4721 265,27.8571 C265,43.2422 252.901,55.7143 237.977,55.7143 Z" id="Path" fill="#F8D331"></path>
+                <text id="Get-started!" font-family="FredokaOne-Regular, Fredoka One" font-size="24" font-weight="normal" line-spacing="24" letter-spacing="-0.072" fill="#4F7B38">
+                    <tspan x="63" y="37">Get started!</tspan>
+                </text>
+                <path d="M0,27.4098 L0,27.4098 C0,22.4337 1.27587,17.7636 3.50959,13.7266" id="Path" stroke="#4F7B38" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M259.971,43.3289 C255.092,50.4843 247.008,55.1627 237.86,55.1627 L27.1831,55.1627 C14.1726,55.1627 3.31317,45.699 0.76794,33.1055" id="Path" stroke="#4F7B38" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M9.2151,6.74643 C13.9447,2.54269 20.1112,0 26.8553,0 L237.532,0 C252.432,0 264.511,12.4122 264.511,27.7234 C264.511,29.4973 264.349,31.2331 264.039,32.9142" id="Path" stroke="#4F7B38" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

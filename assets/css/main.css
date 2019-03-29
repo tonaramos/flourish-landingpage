@@ -1,0 +1,116 @@
+.text{
+    font-family: 'Nunito', cursive !important;
+}
+div.bg-blue{
+    background-color:#50b0bb;
+}
+div.bg-green{
+    background-color:#78c055;
+}
+div.bg-yellow{
+    background-color:#f8d33a;
+}
+div.bg-gray{
+    background-color:#f5f5f5;
+}
+.navbar{
+    font-family: 'Nunito', cursive !important;
+}
+.heading{
+    font-family: 'Fredoka One', cursive !important;
+    font-weight: 100;
+    font-size: 2.8rem !important;
+}
+p.paragraph{
+    font-size: 1.55rem !important;
+}
+h5.title-how{
+    font-family: 'Fredoka One', cursive !important;
+    font-size: 2rem !important;
+    font-weight: 100;
+}
+p.text-how{
+    font-size: 1.1rem !important;
+}
+.text-blue{
+    color:#4fb0bb !important;
+}
+h3.text-our{
+    font-family: 'Fredoka One', cursive !important;
+    font-weight: 100;
+    font-size: 1.5rem !important;
+    line-height: 32px;
+    flex-grow: 1;
+}
+div#partners img{
+    max-width: 170px;
+    width: 170px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.text-new{
+    font-size: 1.2rem;
+}
+.ui-hero{
+    background-image: url('/assets/img/site/home-back.png');
+    background-position: bottom;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    margin-bottom: 0px !important;
+}
+.layer {
+    margin-top: 80px;
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    min-height: 100%;
+}
+.layer-bg {
+    background-image:  url('/assets/img/site/back-icons-home.png');
+}
+
+div#our-purpose{
+    background-image:  url('/assets/img/site/back-purpose.png');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+}
+.card-testemunials{
+    background-color: white;
+    border-radius: 20px;
+    border: 3.5px solid;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    max-height: 450px;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+div#our-purpose a{
+    margin: 0 auto;
+}
+div#our-purpose a img{
+    margin: 0 auto;
+}
+div#footer h6{
+    font-family: 'Fredoka One', cursive !important;
+     font-weight: 100;
+
+}
+div#footer a{
+    font-family: 'Nunito', cursive !important;
+    font-weight: bold;
+}
+div#footer img{
+    margin-left: 10px;
+}
+p.copyright{
+    font-size: 0.8rem;
+}
+div#last-post p{
+    font-size: 1.1rem; font-weight: 600;
+}
