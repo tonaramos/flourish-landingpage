@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="180px" height="48px" viewBox="0 0 180 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+     <defs>
+        <style>
+            @import url("https://fonts.googleapis.com/css?family=Fredoka+One|Nunito");
+        </style>
+    </defs>
     <title>bg-button copy</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -11,7 +16,7 @@
                     <path d="M171.828222,34.1281953 C167.852741,39.764177 161.265778,43.449139 153.811852,43.449139 L22.1491926,43.449139 C11.5480444,43.449139 2.69962,35.9950148 0.625728889,26.0756901" id="Path"></path>
                     <path d="M7.5086,5.31385474 C11.3623481,2.00276077 16.3869037,4.4408921e-14 21.8820963,4.4408921e-14 L153.544593,4.4408921e-14 C165.685333,4.4408921e-14 175.527481,10.4372421 175.527481,21.8364558 C175.527481,23.2336758 175.395481,24.6008862 175.142889,25.9250119" id="Path"></path>
                 </g>
-                <text id="Read-more" font-family="FredokaOne-Regular, Fredoka One" font-size="20" font-weight="normal" line-spacing="24" letter-spacing="-0.06" fill="#FFFFFF">
+                <text id="Read-more" font-family="Fredoka One" font-size="20" font-weight="normal" line-spacing="24" letter-spacing="-0.06" fill="#FFFFFF">
                     <tspan x="36.95" y="28">Read more</tspan>
                 </text>
             </g>

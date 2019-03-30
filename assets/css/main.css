@@ -16,6 +16,9 @@ div.bg-gray{
 .navbar{
     font-family: 'Nunito', cursive !important;
 }
+.navbar li a{
+    font-size: 1.3rem !important;
+}
 .heading{
     font-family: 'Fredoka One', cursive !important;
     font-weight: 100;
@@ -56,7 +59,8 @@ div#partners img{
     background-position: bottom;
     background-repeat:  no-repeat;
     background-size: cover;
-    margin-bottom: 0px !important;
+    padding-bottom: 200px !important;
+    margin-bottom: 0 !important;
 }
 .layer {
     margin-top: 80px;
@@ -113,4 +117,27 @@ p.copyright{
 }
 div#last-post p{
     font-size: 1.1rem; font-weight: 600;
+}
+.back-news{
+    background-image: url("/assets/img/site/back-news.png") !important;
+    background-size: 60%;
+        background-position: left center;
+    background-repeat: no-repeat;
+}
+a.btn-yellow{
+    font-family: 'Fredoka One', cursive !important;
+    color:#4f7b38;
+    background-image: url(/assets/img/buttons/bt-appstore.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    line-height: 30px;
+    text-transform: initial;
+}
+a.btn-yellow:hover{
+    color:#4f7b38;
+}
+tspan{
+    font-family: 'Fredoka One', cursive !important;
+
 }
