@@ -303,3 +303,32 @@
     }
   });
 })(jQuery);
+
+function sendEmailContact(){
+    var name = $("input[name='name']").val()
+    var email = $("input[name='email']").val()
+    var phone = $("input[name='phone']").val()
+    var message = $("textarea[name='message']").val()
+
+    Email.send(email,
+      "sara@flourishsavings.com",
+      `Contact Landingpage - ${name.toUpperCase()}`,
+      "<b>"+name.toUpperCase()+"</b><br/>"+email+"<br/>"+phone+"<br/>"+
+      "<b>Message:</b> "+message,
+      {token: "85e626d8-319b-4dd9-8b9c-269b28ff28c8"}
+    );
+
+    var name = $("input[name='name']").val("")
+    var email = $("input[name='email']").val("")
+    var phone = $("input[name='phone']").val("")
+    var message = $("textarea[name='message']").val("")
+
+    $("#contact-send").show()
+
+    setTimeout(function(){
+        $("#contact-send").html("Message sent!")
+        return false
+     }, 2000);
+
+    return false
+}

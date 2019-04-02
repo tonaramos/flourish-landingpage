@@ -176,17 +176,21 @@ h2.heading{
 .card-yellow p{
     font-size:1.2rem !important;
 }
-a.svg-link{
+a.svg-link, button.svg-link{
     display: inline-block;
     position: relative;
     z-index: 1;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 span.svg-button{
     display: inline-block;
 }
-a span object{
+a span object, button span object{
     position: relative; z-index: -1;
 }
+
 .text-member{
     font-family: 'Fredoka One', cursive !important;
 
@@ -242,4 +246,8 @@ video{
 }
 div#footer h6{
     margin-top:30px;
+}
+#contact-send{
+    margin: 0 auto;
+    display: none;
 }

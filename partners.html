@@ -147,7 +147,7 @@
             </div>
         </div>
 
-        <div id="contact" class="section text-white pt-5 bg-blue pb-5" >
+        <div id="contact" class="section text-white mt-5 pt-5 bg-blue pb-5" >
             <div class="container container-center">
                 <div class="row  mb-3">
                     <div class="col-12  text-center">
@@ -159,31 +159,40 @@
                 </div>
             </div>
             <div class="container container-center">
-                <div class="row">
-                    <div class="col-md-4 col-xs-12 mt-4">
-                        <input type="text" placeholder="Name">
+                <form action="" method="post" onsubmit="return sendEmailContact()" name="contact-form" id="contact-form">
+                    <div class="row">
+                        <div class="col-md-4 col-xs-12 mt-4">
+                            <input type="text" placeholder="Name" name="name" required>
+                        </div>
+                        <div class="col-md-4 col-xs-12 mt-4">
+                            <input type="email" placeholder="Email Address" name="email" required>
+                        </div>
+                        <div class="col-md-4 col-xs-12 mt-4">
+                            <input type="text" placeholder="Phone Number" name="phone" required>
+                        </div>
                     </div>
-                    <div class="col-md-4 col-xs-12 mt-4">
-                        <input type="text" placeholder="Email Address">
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <textarea placeholder="Your Message" rows="4" name="message" required></textarea>
+                        </div>
                     </div>
-                    <div class="col-md-4 col-xs-12 mt-4">
-                        <input type="text" placeholder="Phone Number">
+                    <div class="row text-center">
+
+                        <button type="submit" class="svg-link mt-5" style="margin:0 auto;">
+                            <span class="svg-button">
+                                <object  type="image/svg+xml" data="assets/img/buttons/bt-send.svg">
+                                    Send
+                                </object>
+                            </span>
+                        </button>
+
                     </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-12">
-                        <textarea placeholder="Mensage" rows="4"></textarea>
+                    <div class="row text-center">
+                        <span class="text" id="contact-send">
+                            Sending...
+                        </span>
                     </div>
-                </div>
-                <div class="row text-center">
-                    <a href="#" class="svg-button mt-5 text-center" style="margin: 0 auto;">
-                        <span class="svg-button">
-                        <object  type="image/svg+xml" data="assets/img/buttons/bt-send.svg">
-                            Send
-                        </object>
-                    </span>
-                    </a>
-                </div>
+                </form>
             </div>
         </div>
 
@@ -254,6 +263,7 @@
     <!-- Scripts -->
     <script type="text/javascript" src="assets/js/libs/jquery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="assets/js/libs/bootstrap.js"></script>
+    <script src="https://smtpjs.com/v2/smtp.js"></script>
     <script type="text/javascript" src="assets/js/flourish.js"></script>
 
 </body>
