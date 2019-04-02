@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="115px" height="117px" viewBox="0 0 115 117" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <style>
+            @import url("https://fonts.googleapis.com/css?family=Fredoka+One|Nunito");
+        </style>
+    </defs>
     <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
     <title>Group 15</title>
     <desc>Created with Sketch.</desc>
@@ -26,7 +31,7 @@
                     <path d="M27.0666667,14.9333333 C27.0666667,14.9333333 22.41988,4.76364933 15.3150667,7.16954 C9.67558667,9.07909333 1.917412,7.84317333 1.86666667,0" id="Path" stroke="#636780" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
                 </g>
                 <circle id="Oval-Copy" fill="#4FB0BB" cx="106" cy="22" r="18"></circle>
-                <text id="2" font-family="FredokaOne-Regular, Fredoka One" font-size="20" font-weight="normal" line-spacing="24" letter-spacing="-0.06000001" fill="#FFFFFF">
+                <text id="2" font-family="Fredoka One" font-size="20" font-weight="normal" line-spacing="24" letter-spacing="-0.06000001" fill="#FFFFFF">
                     <tspan x="100.44" y="29">2</tspan>
                 </text>
             </g>

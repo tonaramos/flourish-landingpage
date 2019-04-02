@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="180px" height="48px" viewBox="0 0 180 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
-    <title>Group 11</title>
+    <defs>
+        <style>
+            @import url("https://fonts.googleapis.com/css?family=Fredoka+One|Nunito");
+        </style>
+    </defs>
+    <title>Group 10</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect x="20" y="8.54166667" width="20.5833333" height="24.9166667" id="rect-1"></rect>
+        <rect x="17" y="9" width="26" height="26" id="rect-1"></rect>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="flourish" transform="translate(-532.000000, -350.000000)">
+        <g id="flourish" transform="translate(-729.000000, -350.000000)">
             <g id="Group-23">
                 <g id="Group-12" transform="translate(533.000000, 351.000000)">
-                    <g id="Group-11">
-                        <g id="bg-button-copy">
+                    <g id="Group-10" transform="translate(197.000000, 0.000000)">
+                        <g id="bg-button-copy-2">
                             <path d="M154.812286,46.4285833 L22.0210468,46.4285833 C9.85890651,46.4285833 0,36.0351667 0,23.21425 C0,10.3934167 9.85890651,0 22.0210468,0 L154.812286,0 C166.973856,0 176.833333,10.3934167 176.833333,23.21425 C176.833333,36.0351667 166.973856,46.4285833 154.812286,46.4285833 Z" id="Path" fill="#F8D331"></path>
                             <g id="Group-7" transform="translate(1.000000, 1.000000)" stroke="#4F7B38" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
                                 <path d="M-1.69197989e-13,21.5894474 L-1.69197989e-13,21.5894474 C-1.69197989e-13,17.6700007 1.03959778,13.9915763 2.85966593,10.8118158" id="Path"></path>
@@ -19,10 +24,9 @@
                                 <path d="M7.5086,5.31385474 C11.3623481,2.00276077 16.3869037,4.4408921e-14 21.8820963,4.4408921e-14 L153.544593,4.4408921e-14 C165.685333,4.4408921e-14 175.527481,10.4372421 175.527481,21.8364558 C175.527481,23.2336758 175.395481,24.6008862 175.142889,25.9250119" id="Path"></path>
                             </g>
                         </g>
-                        <g id="apple@2x">
-
-                        </g>
-
+                        <text id="Play-store" font-family="Fredoka One" font-size="17" font-weight="normal" line-spacing="24" letter-spacing="-0.06" fill="#4F7B38">
+                            <tspan x="23" y="29">Join the Waitlist</tspan>
+                        </text>
                     </g>
                 </g>
             </g>

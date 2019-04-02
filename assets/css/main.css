@@ -88,11 +88,11 @@ div#our-purpose{
     border: 3.5px solid;
     padding-top: 50px;
     padding-bottom: 25px;
-    max-height: 450px;
-    min-height: 450px;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+    height: 100%;
+    margin-top:10px;
 }
 div#our-purpose a{
     margin: 0 auto;
@@ -143,11 +143,19 @@ h1.sub-title{
     font-size: 1.5rem;
     font-weight: 100;
 }
-.container-center {
 
+.container-center {
   padding-right: 12rem;
   padding-left: 12rem;
 }
+
+@media (max-width: 576px) {
+   .container-center {
+      padding-right: 2rem;
+      padding-left: 2rem;
+    }
+}
+
 h2.heading{
     font-family: 'Fredoka One', cursive !important;
     font-weight: 100;
@@ -167,4 +175,71 @@ h2.heading{
 }
 .card-yellow p{
     font-size:1.2rem !important;
+}
+a.svg-link{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+span.svg-button{
+    display: inline-block;
+}
+a span object{
+    position: relative; z-index: -1;
+}
+.text-member{
+    font-family: 'Fredoka One', cursive !important;
+
+}
+div.team-card{
+    border-radius: 10px;
+    border-size: 10px;
+    border: solid 3px;
+    border-color: #4fb0bb;
+    padding: 35px;
+    margin-top:30px;
+}
+div.team-card img{
+    max-width: 65%;
+}
+div.img{
+    width: 85%;
+}
+.video *{
+    z-index: 2;
+    text-align: center;
+}
+video{
+    width:80% !important;
+    margin-top: -90px;
+}
+.circle{
+    background-color:#4fb0bb;
+    border-radius: 50%;
+    width: 35px;
+    height:35px;
+    margin-top:12px;
+    line-height: 35px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive !important;
+
+}
+ input, div#contact textarea{
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding:15px;
+    color:#4fb0bb;
+    font-family: 'Nunito', cursive !important;
+    font-weight: bold;
+
+
+}
+::placeholder {
+    color: #4fb0bb;
+    font-family: 'Nunito', cursive !important;
+    font-weight: bold;
+}
+div#footer h6{
+    margin-top:30px;
 }
