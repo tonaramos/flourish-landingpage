@@ -24,6 +24,14 @@ div.bg-gray{
     font-weight: 100;
     font-size: 2.8rem !important;
 }
+.heading-partners{
+    font-family: 'Nunito', cursive !important;
+    font-weight: 100;
+    font-size: 2.8rem !important;
+    font-weight: bold;
+    line-height: 43px;
+    text-align: center;
+}
 p.paragraph{
     font-size: 1.55rem !important;
 }
@@ -47,9 +55,19 @@ h3.text-our{
 }
 div#partners img{
     max-width: 170px;
-    width: 170px;
+    width: 180px;
     margin-left: 25px;
     margin-right: 25px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+div#news img{
+    max-width: 170px;
+    width: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 .text-new{
     font-size: 1.2rem;
@@ -149,10 +167,14 @@ h1.sub-title{
   padding-left: 12rem;
 }
 
-@media (max-width: 576px) {
+
+@media (max-width: 768px) {
    .container-center {
       padding-right: 2rem;
       padding-left: 2rem;
+    }
+    .heading-partners{
+        font-size: 2rem !important;
     }
 }
 
@@ -250,4 +272,13 @@ div#footer h6{
 #contact-send{
     margin: 0 auto;
     display: none;
+}
+div#testemunials h6{
+    font-size: 20px;
+}
+div#values .sub-title{
+    font-size:2rem !important;
+}
+div#values .paragraph{
+    font-size:1.35rem !important;
 }

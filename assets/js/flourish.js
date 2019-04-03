@@ -311,7 +311,7 @@ function sendEmailContact(){
     var message = $("textarea[name='message']").val()
 
     Email.send(email,
-      "sara@flourishsavings.com",
+      "hi@flourishsavings.com",
       `Contact Landingpage - ${name.toUpperCase()}`,
       "<b>"+name.toUpperCase()+"</b><br/>"+email+"<br/>"+phone+"<br/>"+
       "<b>Message:</b> "+message,
