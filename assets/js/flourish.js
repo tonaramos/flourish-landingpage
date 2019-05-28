@@ -304,8 +304,7 @@
   });
 })(jQuery);
 
-function  (){
-
+function sendEmailContact(){
     var name = $("input[name='name']").val()
     var email = $("input[name='email']").val()
     var phone = $("input[name='phone']").val()
