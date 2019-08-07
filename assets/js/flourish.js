@@ -305,30 +305,113 @@
 })(jQuery);
 
 function sendEmailContact(){
-    var name = $("input[name='name']").val()
-    var email = $("input[name='email']").val()
-    var phone = $("input[name='phone']").val()
-    var message = $("textarea[name='message']").val()
+ 
+  console.log('*=*=*=*=*=*=*=*=*=*=*=*=  Your form is being send with data  ' );
 
-    Email.send(email,
-      "hi@flourishsavings.com",
-      `Contact Landingpage - ${name.toUpperCase()}`,
-      "<b>"+name.toUpperCase()+"</b><br/>"+email+"<br/>"+phone+"<br/>"+
-      "<b>Message:</b> "+message,
-      {token: "85e626d8-319b-4dd9-8b9c-269b28ff28c8"}
-    );
+  //-----------
+    // e.preventDefault();
+    var URL = "https://mx64nc4wzl.execute-api.us-west-1.amazonaws.com/email-forward-stage/contact-us";
+    // https://mx64nc4wzl.execute-api.us-west-1.amazonaws.com/email-forward-stage/contact-us
 
-    var name = $("input[name='name']").val("")
-    var email = $("input[name='email']").val("")
-    var phone = $("input[name='phone']").val("")
-    var message = $("textarea[name='message']").val("")
+          // var Namere = /[A-Za-z]{1}[A-Za-z]/;
+          // if (!Namere.test($("#name-input").val())) {
+          //             alert ("Name can not less than 2 char");
+          //     return;
+          // }
+          // var mobilere = /[0-9]{10}/;
+          // if (!mobilere.test($("#phone-input").val())) {
+          //     alert ("Please enter valid mobile number");
+          //     return;
+          // }
+          // if ($("#email-input").val()=="") {
+          //     alert ("Please enter your email id");
+          //     return;
+          // }
 
-    $("#contact-send").show()
+          // var reeamil = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
+          // if (!reeamil.test($("#email-input").val())) {
+          //     alert ("Please enter valid email address");
+          //     return;
+          // }
 
-    setTimeout(function(){
-        $("#contact-send").html("Message sent!")
-        return false
-     }, 2000);
+                 // From previouus code\/\/\/\/\/
+    // var name = $("input[name='name']").val()
+    // var email = $("input[name='email']").val()
+    // var phone = $("input[name='phone']").val()
+    // var message = $("textarea[name='message']").val()
+                // From previous code/\/\/\/\/\/\/\
 
-    return false
+
+    
+    var name = $("#name-input").val();
+    // var phone = $("#phone-input").val();
+    var email = $("#email-input").val();
+    var message = $("#message-input").val();
+    var data = {
+        name : name,
+        // phone : phone,
+        email : email,
+        message : message
+      };
+
+
+      console.log('===========  Your form is being send with data => ', data );
+
+
+
+    $.ajax({
+      type: "POST",
+      url : "https://mx64nc4wzl.execute-api.us-west-1.amazonaws.com/email-forward-stage/contact-us",
+      dataType: "json",
+      crossDomain: "true",
+      contentType: "application/json; charset=utf-8",
+      data: JSON.stringify(data),
+
+      
+      success: function () {
+        // clear form and show a success message
+        alert("Successfull");
+        // document.getElementById("contact-form").reset();
+        // location.reload();
+      },
+      error: function () {
+        // show an error message
+        alert("UnSuccessfull");
+      }});
+
+
+  //-----------
+
+
+
+
+
+    // var name = $("input[name='name']").val()
+    // var email = $("input[name='email']").val()
+    // var phone = $("input[name='phone']").val()
+    // var message = $("textarea[name='message']").val()
+
+    // Email.send(email,
+    //   "hi@flourishsavings.com",
+    //   `Contact Landingpage - ${name.toUpperCase()}`,
+    //   "<b>"+name.toUpperCase()+"</b><br/>"+email+"<br/>"+phone+"<br/>"+
+    //   "<b>Message:</b> "+message,
+    //   {token: "85e626d8-319b-4dd9-8b9c-269b28ff28c8"}
+    // );
+    
+    // console.log('===========  Your form is being send')
+
+    // var name = $("input[name='name']").val("")
+    // var email = $("input[name='email']").val("")
+    // var phone = $("input[name='phone']").val("")
+    // var message = $("textarea[name='message']").val("")
+
+    // $("#contact-send").show()
+
+    // setTimeout(function(){
+    //     $("#contact-send").html("Message sent!")
+    //     return false
+    //  }, 2000);
+
+    // return false
 }
